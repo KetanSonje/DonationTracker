@@ -27,7 +27,7 @@ async function updateDonationTable() {
   });
 
   // Update the total donations on the page
-  document.getElementById('totalDonations').innerText = `$${totalDonations}`;
+  document.getElementById('totalDonations').innerText = `₹₹{totalDonations}`;
 }
 
 // Call the function to fetch and display the donations data
