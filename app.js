@@ -4,7 +4,7 @@ const sheetId = '1jkF8k3wPobDzpsEOxCscpLUTZZfoGCIxEp8HwbOiu64';
 const apiKey = 'AIzaSyCSVsxcXej7rA030gO9SXaTdJipnptoJcI';
 
 // Range of data you want to fetch (the sheet name and the range)
-const donationSheetRange = 'Donations!B2:F'; // A2:C is a range, adjust it accordingly if needed
+const donationSheetRange = 'Donations!B2:G'; // A2:C is a range, adjust it accordingly if needed
 
 // Function to fetch data from Google Sheets
 async function fetchData(sheetRange) {
